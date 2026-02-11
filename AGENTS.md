@@ -59,6 +59,11 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 - Don't run destructive commands without asking.
 - `trash` > `rm` (recoverable beats gone forever)
 - When in doubt, ask.
+- **STRICT RULE:** Do not change ANYTHING (files, configs, settings, code) unless explicitly instructed. If you see a problem or improvement, suggest it first. Never edit unprompted.
+- **STRICT RULE:** Do not execute code, scripts, servers, or long-running processes (e.g., `bun run`, `npm start`, `python script.py`) without explicit, direct user instruction.
+  - You may look around (`ls`, `read`, `grep`) to answer questions.
+  - You must ASK PERMISSION before running any command that executes code, changes state, or starts a background task.
+  - If a user asks "how do I run this?", explain the command but do not execute it unless they add "do it" or similar confirmation.
 
 ## External vs Internal
 
